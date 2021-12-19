@@ -10,6 +10,9 @@ print(dsb.get_news()) """
 
 app = Flask(__name__)
 
+@app.route("/")
+def help():
+    return "Please provide username and password in the url. Example: https://dsb-notifier-api.up.railway.app/username/password. \n\n Sincerly, \n\n APUEM"
 
 @app.route('/<string:usr>/<string:psw>')
 def index(usr, psw):

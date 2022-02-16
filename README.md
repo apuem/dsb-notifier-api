@@ -1,23 +1,6 @@
----
-title: Flask
-description: A popular minimal server framework for Python.
-tags:
-  - python
-  - flask
----
+# DSB mobile API
 
-# Python Flask Example
+Returns subst001.htm file of the DSB mobile app.
+Please provide username and password in the url. Example: ```https://dsb-notifier-api.up.railway.app/username/password```
 
-This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a simple JSON response.
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fexamples%2Ftree%2Fmaster%2Fexamples%2Fflask)
-
-## ✨ Features
-
-- Python
-- Flask
-
-## 💁‍♀️ How to use
-
-- Install Python requirements `pip install -r requirements.txt`
-- Start the server for development `python3 main.py`
+Copyright © 2022 APUEM / Version 0.0.1 Alpha
